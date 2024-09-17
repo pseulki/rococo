@@ -43,6 +43,7 @@ python mix_images.py --method mix --lam 0.9 --data_path /data/coco/images/ --see
 Since the retrieval methods vary for each baseline, it is necessary to follow the specific baseline method when calculating similarity using text/image embeddings. Here, we provide examples of evaluation methods from [CLIP](https://arxiv.org/abs/2103.00020), [BLIP](https://github.com/salesforce/BLIP), and [VSEInfty](https://github.com/woodfrog/vse_infty.git).
 
 ### (1) BLIP example
+The BLIP evaluation code has been slightly modified from the original [BLIP code  repository](https://github.com/salesforce/BLIP).
 - Requirements:
 ```
 pyyaml
