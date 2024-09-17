@@ -1,5 +1,8 @@
 # RoCOCO: Robustness Benchmark of MS-COCO to Stress-test Image-Text Matching Models
 [RoCOCO: Robustness Benchmark of MS-COCO to Stress-test Image-Text Matching Models](https://arxiv.org/abs/2304.10727) (ECCV Synthetic Data for Computer Vision Workshop 2024 Oral).
+<p align="center">
+<img src="https://github.com/pseulki/rococo/blob/main/blip_example2.png" width=75% height=75% align="center">
+</p>
 
 ## 1. Data Preparation
 COCO dataset can be downloaded from [here](https://cocodataset.org/#home).
