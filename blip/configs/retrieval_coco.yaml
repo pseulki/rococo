@@ -1,13 +1,12 @@
-image_root: '/nfs/turbo/coe-stellayu/shared_data/MSCOCO/images/'
+image_root: 'MSCOCO/images/'
 ann_root: 'annotations/'
 dataset: 'coco'
 
 # set pretrained as a file path or an url
-pretrained: 'sc/checkpoint_best.pth'
+pretrained: 'https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_base_retrieval_coco.pth'
 #'https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_large.pth'
 # https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_base.pth
 #https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_large_retrieval_coco.pth
-#'https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_base_retrieval_coco.pth'
 
 # size of vit model; base or large
 
