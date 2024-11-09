@@ -4,6 +4,7 @@
 <img src="https://github.com/pseulki/rococo/blob/main/blip_example2.png" width=75% height=75% align="center">
 </p>
 
+[Slides]([https://www.slideshare.net/SeulkiPark10/iccv-21-influencebalanced-loss-for-imbalanced-visual-classification](https://docs.google.com/presentation/d/1XMvLpHNT3JU2dW1go-SJ0WmdywlKl2YG/edit?usp=sharing&ouid=109428068995513711293&rtpof=true&sd=true)) | [Bibtex](#Citation) 
 ## 1. Data Preparation
 COCO dataset can be downloaded from [here](https://cocodataset.org/#home).
 
