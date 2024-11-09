@@ -64,7 +64,7 @@ if __name__ == '__main__':
     parser.add_argument('--seed', default='1', type=int)
     parser.add_argument('--lam', default='0.9', type=float, help='proportion of mixing images')
     parser.add_argument('--data_path', default=None, help='data path of the coco images')
-    parser.add_argument('--img_list', default='data/coco_karpathy_test.json')
+    parser.add_argument('--img_list', default='annotations/coco_karpathy_test.json')
     args = parser.parse_args()
 
     torch.manual_seed(args.seed)
@@ -74,7 +74,7 @@ if __name__ == '__main__':
 
     lam = args.lam
     method = args.method
-    save_folder =args.data_path + method + '_' + str(lam) + '/'
+    save_folder =os.path.join(args.data_path, method + '_' + str(lam) + '/')
     read_folder = args.data_path
     img_list = args.img_list
 
