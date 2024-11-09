@@ -23,7 +23,7 @@ To generate the altered images, use the code provided below.
 For models utilizing BUTD features, we offer precomputed BUTD features for the altered images with random seeds 1, 10, 100 at [this link](https://drive.google.com/drive/folders/1KqjbqemR0BnjjAqft7agDEKTr5WAppJt?usp=sharing). 
 
 
-### Create additional images 
+### Create visually corrupted images 
 - Requirements:
 ```
 torchvision
